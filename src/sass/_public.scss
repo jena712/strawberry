@@ -1,0 +1,155 @@
+*{
+    font-family: "微软雅黑";
+}
+div,ul,li{
+    margin: 0;
+    padding: 0;
+}
+input{
+    border: none;
+}
+li{
+    list-style: none;
+}
+a,a:hover,u{
+    text-decoration: none;
+}
+i,strong{
+    font-weight: normal;
+    font-style: normal;
+}
+/*header*/
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    .top{
+        width: 100%;    
+        height: 100px;
+        background:url(../img/header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -420px;
+        img{
+            float: left;
+            margin-left: 4%;
+            margin-top: 15px;
+        }
+        #search{
+            float: left;
+            margin-top: 25px;
+            width: 296px;
+            height: 36px;
+            color: #623381;
+            border: 2px solid #541973;
+            border-radius: 5px;
+            margin-left: 134px;
+            text-indent: 14px;
+        }
+    }
+}
+#header .top .top_right{
+    float: left;
+    margin-top: 15px;
+    margin-left: 134px;
+    font-size: 12px;
+    color: #aa2c7d;
+    a{
+        color: #aa2c7d;   
+    }
+    ul{
+        width: 100%;
+        li{
+            float: left;
+            span{
+                margin: 0 14px;
+            }
+            i{
+                margin-left: 2px;
+            }
+        }
+    }
+    ol{
+        width: 100%;
+        i{
+            float: left;
+        }
+    }
+}
+/*nav导航*/
+#nav{
+    height: 45px;
+    background:url(../img/nav_bg.jpg);
+}
+#nav ul{
+    margin-left: 47px;
+}
+#nav ul li{
+    float: left;
+    line-height: 43px;
+    margin-top: 2px;
+    padding: 0 23px;
+    font-size: 12px;
+}
+#nav ul li a{
+    color: #fff;
+}
+#nav ul li:hover{
+    background: #fff;   
+    border-radius: 5px 5px 0 0;     
+}
+#nav ul li:hover a{
+    text-decoration: underline;
+    color: #623381; 
+}
+#nav ul .brand{
+    font-size: 16px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+#nav .brand a:hover{
+    font-size: 16px;
+    
+}
+#nav .activity,#nav .online{
+    font-weight: bold;
+    padding: 0 31px;
+}
+#nav .activity span{
+    float: left;
+    width: 25px;
+    height: 20px;
+    margin-top: 10px;
+    background-image: url(../img/2016CommonSprite.png);
+    background-position: -331px -347px;
+}
+#nav .activity:hover span{
+    background-image: url(../img/2016CommonSprite.png);
+    background-position: -330px -366px;
+}
+#nav .online span{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background-image: url(../img/2016CommonSprite.png);
+    background-position: -295px -347px;
+}
+#nav .online:hover span{
+    background-image: url(../img/2016CommonSprite.png);
+    background-position: -295px -366px;
+}
+#header .postage{
+    float: right;
+    margin-right: 60px;
+    width: 146px;
+    line-height: 32px;
+    background: #ff7200;
+    color: #fff;
+    border-radius:0 0 5px 5px;
+    font-size: 12px;
+    span{
+        margin-left: 6px;
+    }
+}

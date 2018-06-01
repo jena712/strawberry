@@ -6,17 +6,28 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Strawberry</title>
 		<link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/index.min.css" />
 	</head>
-	<body style="position: absolute;">
-		<div style="position: fixed;z-index: 1;">
-			<!--header-->
-			<div id="header" class="container-fluid">
-				<div class="container row">
-					<div class="col-md-4 logo"><img src="img/company_logo.png"></div>
-					<div class="col-md-4">1</div>
-					<div class="col-md-4">1</div>
-				</div>		
+	<body>	
+		<!--header-->
+		<div id="header">
+			<!--top-->
+			<div class="top">
+				<img src="img/company_logo.png" />
+				<input type="text" id="search" value="搜索商品/品牌/关键词" />
+				<div class="top_right">
+					<ul>
+						<li><a href="#">￥CNY</a><i class="glyphicon glyphicon-chevron-down"></i><span>|</span></li>
+						<li><a href="#">China:English</a><i class="glyphicon glyphicon-chevron-down"></i><span>|</span></li>
+						<li><a href="#">订单查询</a><span>|</span></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+					<ol>
+						<li><a href="#">注册或登录</a></li>
+						<li><a href="#">注册或登录</a></li>
+						<li><a href="#">注册或登录</a></li>
+					</ol>
+				</div>
 			</div>
 			<!--nav-->
 			<div id="nav" class="container-fluid">
@@ -40,6 +51,7 @@
 					<li class="online"><span></span><a href="#">促销活动</a></li>
 				</ul>
 			</div>
+			<a class="postage text-center">全球包邮<span>适用条件</span></a>
 		</div>
 		<!--main-->
 		<div id="main" class="container">
@@ -64,16 +76,16 @@
 						<img src="img/banner_2.jpg" alt="Second slide">
 					</div>
 					<div class="item">
-						<img src="img/banner_3.jpg" alt="Third slide">
+						<img src="img/banner_4jpg" alt="Third slide">
 					</div>
 					<div class="item">
-						<img src="img/banner_3.jpg" alt="Third slide">
+						<img src="img/banner_5.jpg" alt="Third slide">
 					</div>
 					<div class="item">
-						<img src="img/banner_3.jpg" alt="Third slide">
+						<img src="img/banner_6.jpg" alt="Third slide">
 					</div>
 					<div class="item">
-						<img src="img/banner_3.jpg" alt="Third slide">
+						<img src="img/banner_7.jpg" alt="Third slide">
 					</div>
 				</div>
 				<!-- 轮播（Carousel）导航 -->
@@ -93,7 +105,7 @@
 					<div class="col-md-4 seckill_side"></div>
 					<div class="col-md-4 seckill_totoday text-center">
 						<h4>草莓网今日秒杀</h4>
-						<h4>仅剩：<span>10h:54m:06s!</span></h4>
+						<h4>仅剩:<span>10h:54m:06s!</span></h4>
 					</div>
 					<div class="col-md-4 seckill_side text-right">
 						每张订单最多可购买3件。
@@ -208,9 +220,253 @@
 						</div>
 					</li>
 				</ul>
+			</div>			
+		</div>
+		<!-- 推荐 recommend-->
+		<div id="recommend" class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 same_side"></div>
+					<div class="col-md-2 same_title text-center">
+						<h4>草莓网尖货推荐</h4>
+					</div>
+					<div class="col-md-5 same_side text-right"></div>
+				</div>			
+				<ul class="row">
+					<li class="col-md-3 text-center">												
+						<h2><i></i></h2>
+						<a href="#">
+							<img src="img/recommend.jpg">
+							<h5 class="text-left">爱琪美 Academie</h5>
+							<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+						</a>
+						<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+						<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+						<input type="button" value="加入购物车" />					
+					</li>
+					<li class="col-md-3">						
+						<div class="text-center">	
+							<h2><i></i></h2>
+							<a href="#">
+								<img src="img/recommend.jpg">
+								<h5 class="text-left">爱琪美 Academie</h5>
+								<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+							</a>
+							<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+							<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+							<input type="button" value="加入购物车" />
+						</div>
+					</li>
+					<li class="col-md-3">						
+						<div class="text-center">	
+							<h2><i></i></h2>
+							<a href="#">
+								<img src="img/recommend.jpg">
+								<h5 class="text-left">爱琪美 Academie</h5>
+								<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+							</a>
+							<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+							<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+							<input type="button" value="加入购物车" />
+						</div>
+					</li>
+					<li class="col-md-3">						
+						<div class="text-center">	
+							<h2><i></i></h2>
+							<a href="#">
+								<img src="img/recommend.jpg">
+								<h5 class="text-left">爱琪美 Academie</h5>
+								<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+							</a>
+							<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+							<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+							<input type="button" value="加入购物车" />
+						</div>
+					</li>
+				</ul>
+				<a href="#" id="look" class="text-center">查看所有产品<u>></u></a>
 			</div>
-			<!-- 推荐 recommend-->
-			
+		</div>
+		<!--discount 五折专场-->
+		<div id="same" class="container">
+			<div class="row">
+				<div class="col-md-5 same_side"></div>
+				<div class="col-md-2 same_title text-center">
+					<h4>五折专场</h4>
+				</div>
+				<div class="col-md-5 same_side text-right"></div>
+			</div>			
+			<ul class="row">
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/discount.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/discount.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/discount.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/discount.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+			</ul>
+			<a href="#" id="look" class="text-center">查看所有产品<u>></u></a>
+		</div>
+		<!--hotsale 热卖榜-->
+		<div id="same" class="container">
+			<div class="row">
+				<div class="col-md-5 same_side"></div>
+				<div class="col-md-2 same_title text-center">
+					<h4>热卖榜</h4>
+				</div>
+				<div class="col-md-5 same_side text-right"></div>
+			</div>			
+			<ul class="row">
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/hotsale.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/hotsale.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/hotsale.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/hotsale.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+			</ul>
+			<a href="#" id="look" class="text-center">查看所有产品<u>></u></a>
+		</div>
+		<!--new 新品登场-->
+		<div id="same" class="container">
+			<div class="row">
+				<div class="col-md-5 same_side"></div>
+				<div class="col-md-2 same_title text-center">
+					<h4>新品登场</h4>
+				</div>
+				<div class="col-md-5 same_side text-right"></div>
+			</div>			
+			<ul class="row">
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/new.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/new.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/new.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+				<li class="col-md-3 text-center">												
+					<h2><i></i></h2>
+					<a href="#">
+						<img src="img/new.jpg">
+						<h5 class="text-left">爱琪美 Academie</h5>
+						<h6 class="text-left">男士活力净透深层清洁磨砂膏 75ml/2.5oz</h6>								
+					</a>
+					<p class="text-left">*草莓网原价 <del>¥402.50</del></p>
+					<h3 class="text-left"><sup>￥</sup>174<sup>.00</sup></h3>
+					<input type="button" value="加入购物车" />					
+				</li>
+			</ul>
+			<a href="#" id="look" class="text-center">查看所有产品<u>></u></a>
+		</div>
+		<!--about关注我们-->
+		<div id="about" class="container-fluid">
+			<ul class="row">
+				<li class="col-md-4">
+					<h2>关注我们</h2>
+				</li>
+				<li class="col-md-4">1</li>
+				<li class="col-md-4">1</li>
+			</ul>
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>

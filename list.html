@@ -2,11 +2,467 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>list</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/list.min.css" />
 	</head>
 	<body>
-		<div>fghfnj</div>
-		<a href="#">xcg</a>
+		<!--header-->
+		<div id="header">
+			<!--top-->
+			<div class="top">
+				<img src="img/company_logo.png" />
+				<input type="text" id="search" value="搜索商品/品牌/关键词" />
+				<div class="top_right">
+					<ul>
+						<li><a href="#">￥CNY</a><i class="glyphicon glyphicon-chevron-down"></i><span>|</span></li>
+						<li><a href="#">China:English</a><i class="glyphicon glyphicon-chevron-down"></i><span>|</span></li>
+						<li><a href="#">订单查询</a><span>|</span></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+					<ol>
+						<li><a href="#">注册或登录</a></li>
+						<li><a href="#">注册或登录</a></li>
+						<li><a href="#">注册或登录</a></li>
+					</ol>
+				</div>
+			</div>
+			<!--nav-->
+			<div id="nav" class="container-fluid">
+				<ul>
+					<li class="text-muted brand">
+						<a href="#" class="">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+							根据品牌选购
+						</a>
+					</li>
+					<li>
+						<a href="#">女士护肤</a>
+					</li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">女士护肤</a></li>
+					<li class="activity"><span></span><a href="#">促销活动</a></li>
+					<li class="online"><span></span><a href="#">促销活动</a></li>
+				</ul>
+			</div>
+			<a class="postage text-center">全球包邮<span>适用条件</span></a>
+		</div>
+		
+		<div class="container">
+			<!--column-->
+			<div id="column" class="row">
+				<div class="column_title col-md-5">
+					<dl>
+						<dt><a href="#">home</a><span>&gt;</span></dt>
+						<dd><a href="#">宝格丽 bvlgari</a></dd>
+					</dl>
+					<h2>宝格丽 BVLGARI</h2>
+				</div>
+				<div class="column_pic col-md-7">
+					<img src="img/category_Summer.jpg" />
+				</div>
+			</div>
+			<!--main-->
+			<div id="main" class="row">
+				<!--sidebar侧边栏-->
+				<div class="sidebar col-md-3">
+					<ul>
+						<li><a href="#">护肤(166)</a></li>
+						<li><a href="#">护肤(166)</a></li>
+						<li><a href="#">护肤(166)</a></li>
+					</ul>
+					<h4>按产品合集筛选</h4>
+					<div class="product_set">
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+					</div>
+					<h4>按特惠活动筛选</h4>
+					<div class="product_set product_activity ">
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >基因活颜 (1)</a></p>
+						<p><input type="checkbox" name="a" value="a" /><a href="#" >碧欧泉男士 (13)</a></p>
+					</div>
+				</div>
+				<!--product_list产品列表-->
+				<div class="product_list col-md-9">
+					<h4>共173 件 <span>碧欧泉 Biotherm</span>相关商品</h4>
+					<ul class="row">
+						<li class="col-md-6"><a href="#">国际参考价格转换为CNY.</a></li>
+						<li class="col-md-1">查看</li>
+						<li class="col-md-1"><a href="#"><span class="glyphicon glyphicon-menu-hamburger text-center list"></span>清单</a></li>
+						<li class="col-md-1"><a href="#"><span class="glyphicon glyphicon-th-large text-center browser"></span>图片浏览</a></li>
+						<li class="col-md-3 class text-center">
+							<a href="#">根据产品分类 &or;</a>
+							<ol class="text-left">
+								<li><a href="#">畅销度</a></li>
+								<li><a href="#">畅销度</a></li>
+								<li><a href="#">畅销度</a></li>
+							</ol>
+						</li>
+					</ul>
+					<p><span>碧欧泉</span> - 护肤 (134)</p>
+					<ol>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol class="row">
+								<li class="col-md-5">
+									<a href="#">
+										超轻盈滋润防晒露SPF15 (防水型)
+										<span>150ml/5.07oz</span>
+									</a>
+								</li>
+								<li class="col-md-2 text-center">
+									<a href="#" class="text-center">
+										<img src="img/product_list1.jpg" />
+										<span>click&gt;&gt;</span>
+									</a>
+								</li>
+								<li class="col-md-1">
+									<i>建议零售价 <del>¥180.50</del></i>
+									<u class="text-center">节省<br>5%</u>
+								</li>
+								<li class="col-md-2 price text-center">
+									<sup>¥</sup>171<sup>.50</sup>
+								</li>
+								<li class="col-md-1">
+									<a href="#" class="text-center">加入购物车</a>
+									<h1>
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_full.gif" />
+										<img src="img/star_empty.gif" />
+									</h1>
+								</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom" class="container-fluid">
+			<!--service-->
+			<div class="container service">				
+				<ul>
+					<li><a href="#">付运&税收</a></li>
+					<li><a href="#">退货条款</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">联系我们</a></li>
+					<a href="#" class="area"><span></span>更改地区/语言</a>
+				</ul>
+				<ol class="clear payway">
+					<li><a href="#">付款方式:</a></li>
+					<li><img src="img/Alipay_16.png"></li>
+					<li><img src="img/wechatpayCN_16.jpg"></li>
+					<li><img src="img/Unionpay_16.png"></li>
+					<li><img src="img/tenpay.png"></li>
+					<li><img src="img/DiscoverMore.png"></li>
+				</ol>				
+			</div>
+			<!--friendlink-->
+			<div class="container friendlink">
+				<ul>
+					<li>
+						<dl>
+							<dt>我的账户</dt>
+							<dd><a href="#">订单查询</a></dd>
+							<dd><a href="#">订单查询</a></dd>
+							<dd><a href="#">订单查询</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>草莓网简介</dt>
+							<dd><a href="#">订单查询</a></dd>
+							<dd><a href="#">订单查询</a></dd>
+							<dd><a href="#">订单查询</a></dd>
+						</dl>
+					</li>
+					<li class="download">
+						<dl>
+							<dt>下载</dt>
+							<dd><a href="#" class="app"></a></dd>
+							<dd><a href="#" class="google"></a></dd>
+						</dl>
+					</li>
+					<li class="store">
+						<dl>
+							<dt>OUR STORES</dt>
+							<dd><img src="img/StoresCN_Amazon.png"></dd>
+							<dd><img src="img/StoresCN_JDcom.png"></dd>
+							<dd><img src="img/StoresCN_Red.png"></dd>
+						</dl>
+					</li>
+					<li class="eval">
+						<dl>
+							<dt>顾客评价高</dt>
+							<dd><a href="#"><img src="img/medal.gif"></a></dd>
+							<!--<dd><a href="#"><img src="img/"></a></dd>-->
+							<dd><img src="img/mark_trust.png" width="65" height="65"></dd>
+							<dd><img src="img/premiumeshop.png" width="70" height="45"></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="footer container">
+				<p>隐私&amp;安全 | 使用条款</p>
+				<p>1998 - 2018 © 香港草莓网版权所有 </p>
+				<p>ICP证:京ICP备11007848号-1</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="src/js/list.js"></script>
 	</body>
 </html>

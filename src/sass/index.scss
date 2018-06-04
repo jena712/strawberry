@@ -14,7 +14,7 @@
 }
 /*main*/
 #main{   
-    margin: 190px auto 0 auto;
+    margin-top: 190px;
 }
 /*秒杀seckill*/
 /*1-秒杀倒计时*/
@@ -241,6 +241,7 @@
     }
     li:hover{
         border: 1px solid #dbdbdb;
+        box-shadow: 0px 0px 4px #bbb;
     }
     #look{
         width: 120px;
@@ -262,15 +263,4 @@
         opacity: 50%;
     }
 }
-/*about关注我们*/
-#about{
-    background: url(../img/nav_bg.jpg);
-    height: 238px;
-    color: #fff;
-    ul li{
-        float: left;
-        h2{
-            
-        }
-    }
-}
+

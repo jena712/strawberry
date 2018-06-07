@@ -73,9 +73,34 @@ i{
         }
     }
     ol{
+        padding: 0;
         width: 100%;
-        i{
+        li{
+            padding-top: 20px;
+            line-height: 30px;
+            margin-right: 10px;
             float: left;
+            a{
+                margin-left: 40px;
+            }
+        }
+        li:before{
+            content: "";
+            display: inline-block;
+            width: 34px;
+            height: 34px; 
+            background: url(../img/2016CommonSprite.png); 
+            background-position-y: -314px; 
+            position: absolute;
+        }
+        li:nth-child(1):before{
+             background-position-x: -277px;
+        }
+        li:nth-child(2):before{
+             background-position-x: -349px;
+        }
+        li:nth-child(3):before{
+             background-position-x: -312px;
         }
     }
 }
@@ -83,6 +108,61 @@ i{
 #nav{
     height: 45px;
     background:url(../img/nav_bg.jpg);
+    position: absolute;
+    .menu{
+        width: 440px;
+        height: 580px;
+        padding: 10px;
+        background: #fff;
+        position: absolute;
+        top: 45px;
+        left:62px;
+        z-index: 999;
+        box-shadow: 1px 1px 2px #999;
+        display: none;
+        .menu_left{
+            width: 260px;
+            input{
+                width: 240px;
+                height: 35px;
+                border: 2px solid #52246d;
+                text-indent: 1em;
+                line-height: 35px;
+                border-radius: 5px;
+            }
+            .menu_list{
+                overflow: auto;
+                height: 510px;
+                width: 250px;
+                ol{
+                    padding: 0;
+                    font-size: 12px;
+                    float: left;
+                    width: 12px;                   
+                    li{
+                        line-height: 26px;
+                    }
+                }
+                ul{
+                    padding: 0;
+                    margin: 0;
+                    width: 210px;
+                    float: left;
+                    li{
+                        line-height: 20px;
+                        a{
+                            color: #52246d;
+                            line-height: 0;
+                        }
+                    }                       
+                }
+            }
+        }
+        .menu_right{
+            width: 100px;
+            float: left;
+        }
+    }
 }
 #nav ul{
     margin-left: 47px;
@@ -364,9 +444,10 @@ i{
        }
    }
 }
+/*返回顶部*/
 #topAnchor{
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     display: block;
     width: 110px;
@@ -374,4 +455,85 @@ i{
     line-height: 20px;
     background: #dcd5d6;
     border-radius: 5px;
+    color: #662f91;
+    padding-top: 5px;
+    font-size: 16px;
 }
+/*关注*/
+#attention{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    overflow: hidden;
+    width: 310px;
+    height:180px;
+    span{
+        display: block;
+        position: absolute;
+        left: 280px;
+        z-index: 20;
+        img{
+            width: 20px;
+            height: 20px;
+            }
+    }
+    img{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 285px;
+        height: 130px;
+    }
+    p{
+        position: absolute;
+        top: 104px;
+        
+        background: #f12871;
+        width: 284px;
+        height: 75px;
+        padding-left: 15px;
+        input{
+            float: left;
+            border: none;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 28px;
+            border-radius: 3px;
+        }
+        #txt{
+            width: 180px;           
+            background: #fff;
+            color: #999;
+            text-indent: 1em;
+        }
+        #btn{
+            width: 70px;     
+            background: #000;
+            color: #fff;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
+}
+/*扫码下载*/
+#footer_cn{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform:translateX(-50%);
+    span{
+        display: block;
+        position: absolute;
+        top: -15px;
+        left: 79%;
+        z-index: 20;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        color: #fff;
+        border-radius: 50%;
+        background: #000000;
+    }
+}
+

@@ -1,0 +1,192 @@
+@import "public";
+/*column*/
+.column{
+    margin-top: 190px;
+    li{
+        float: left;
+        a{
+            color: #555;
+        }
+        span{               
+            color: #ddd;
+            margin: 0 10px;               
+        }
+    }
+    li:last-child{
+        a{
+            color: #ef1275;
+        }           
+    }  
+}
+#main{
+    padding-top: 16px;
+    .main_left{
+        display: table-cell;
+        position: relative;
+        u{
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #892980;
+            padding-top: 6px;
+            display: block;
+            position: absolute;
+            right: 7%;
+            top:2%;
+        }
+        .small_pic{
+            width: 350px;
+            height: 350px;
+            position: relative;
+            .float_layer {
+                width: 50px;
+                height: 50px;
+                border: 1px solid #000;
+                background: #000;
+//              filter: alpha(opacity: 30);
+                opacity: 0.3;
+                position: absolute;
+                top: 0;
+                left: 0;
+//              display: none;
+            }
+            .mark{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                background: red;
+                opacity: 0;
+            }
+        }
+        .big_pic {
+            position: absolute;
+            z-index: 2;
+            top: -1px;
+            left: 430px;
+            width: 350px;
+            height: 350px;
+            overflow: hidden;
+            border: 1px solid #CCC;
+            box-shadow: 2px 2px 2px #999;
+//          display: none;
+        }
+        
+        h5{
+            span{
+                font-size: 20px;
+                margin-right: 5px;
+            }
+        }
+        p a{
+            display: inline-block;
+            width: 75px;
+            height: 75px;
+            border: 1px solid #999;
+            margin-left: 10px;
+            img{
+                width: 80%;
+                height: 80%;
+                margin-top: 6%;
+            }
+        }
+    }
+    .main_right{
+        h2{
+            a{
+                color: #000;
+            }
+        }
+        h4{
+            margin-top:30px;
+        }
+        h5 span{
+            margin: 4px 0 0 5px;
+            img{
+                    width: 12px;
+                    height:12px;
+            }
+        }
+        h6{
+                width: 58px;
+                height: 58px;
+            a{
+                color: #000;
+                display: block;
+                width: 58px;
+                height: 58px;
+                border:2px solid #642c90;
+                word-break: break-all;
+                padding: 10px;
+                background: #f3f2f2;
+            }
+        }
+        h5 del{
+            margin-right: 6px;
+        } 
+        select{
+            width: 54px;
+            height: 30px;
+            text-indent: 1em;
+        }
+        input{
+            width: 130px;
+            height: 30px;
+            border-radius: 5px;
+            background: #00a69c;
+            color: #fff;
+            font-size: 14px;
+        }
+        ul{
+            margin-top: 40px;
+            border-bottom: 1px solid #642c90;
+            overflow: hidden;
+            li{
+                float: left;
+                margin-right: 20px;
+                line-height: 30px;
+                a:focus{
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #642c90;
+                }
+                span{
+                    margin-left: 5px;
+                }
+            }
+            li:first-child a{
+                padding-bottom: 5px;
+                border-bottom: 2px solid #642c90;
+            }
+        }
+        .description{
+            ol{
+                padding: 20px 0;
+                li{
+                    list-style-type:disc;
+                    margin-left: 16px;
+                }
+            }
+            
+        }      
+    }
+}
+#hot{
+    margin-top: 6px;
+    height:60px;
+    .hot_side{
+        background: #0b0b0b;
+        height: 6px;
+        margin-top: 15px;
+        line-height: 60px;
+        font-weight: bold;
+        }
+    .hot_title{
+        color: #0b0b0b;
+        padding-top:8px;
+        letter-spacing: 4px;
+        margin-bottom: 32px;
+    }
+}

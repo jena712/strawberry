@@ -40,8 +40,8 @@
             height: 350px;
             position: relative;
             .float_layer {
-                width: 50px;
-                height: 50px;
+                width: 175px;
+                height: 175px;
                 border: 1px solid #000;
                 background: #000;
 //              filter: alpha(opacity: 30);
@@ -49,7 +49,16 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-//              display: none;
+                display: none;
+            }
+            .float_pic{
+                width: 350px;
+                height: 350px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 3;
+                display: none;
             }
             .mark{
                 width: 100%;
@@ -58,8 +67,8 @@
                 z-index: 2;
                 top: 0;
                 left: 0;
-                background: red;
-                opacity: 0;
+                background: #fff;
+                opacity: 0.5;
             }
         }
         .big_pic {
@@ -72,7 +81,13 @@
             overflow: hidden;
             border: 1px solid #CCC;
             box-shadow: 2px 2px 2px #999;
-//          display: none;
+            display: none;
+            background: #fff;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
         }
         
         h5{

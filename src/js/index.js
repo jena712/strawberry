@@ -1,4 +1,8 @@
 $(function(){
+	//登录
+	$('#register').click(function(){
+		location.href = 'register.html';
+	})
 	//倒计时
 	setInterval(function(){
 				var date = new Date();
@@ -20,7 +24,7 @@ $(function(){
 	$(".brand").mouseover(function(){
 		$(".menu").css("display","block");
 	})
-	$(".brand").mouseout(function(){
+	$(".menu").mouseout(function(){
 		$(".menu").css("display","none");
 	})
 	//注册关注
